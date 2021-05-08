@@ -190,6 +190,7 @@ def get_account():
     获取账号信息
     """
     uid, psw = sys_argv[1].strip().split(' ')
+    logging.info("id: %s"%uid)
     return uid, psw
 
 if __name__ == '__main__':
