@@ -1,3 +1,8 @@
+
+# 免责声明
+郑重声明：本人只是使用该脚本测试微信通知功能，并不了解脚本本身功能，未参与脚本开发，不承担一切相关与连带责任。
+以下大部分为原作者的内容
+
 # Daily_Fudan
 > 一键平安复旦小脚本
 > 
@@ -26,7 +31,7 @@
 <details>
 <summary>查看教程</summary>
 
-- 项目地址：[github/daily_fudan](https://github.com/k652/daily_fudan)
+- 项目地址：[github/daily_fudan](https://github.com/Limourli-liu/daily_fudan)
 - 点击右上角`Fork`到自己的账号下
 
 ![fork](https://i.loli.net/2020/10/28/qpXowZmIWeEUyrJ.png)
@@ -41,10 +46,14 @@
 ![new-secret.png](https://i.loli.net/2020/10/28/sxTuBFtRvzSgUaA.png)
 
 - 建立名为`FUDAN`的 secret，值为`学号`+`(空格)`+`密码`，最后点击`Add secret`
-
 - secret名字必须为`FUDAN`！
 - secret名字必须为`FUDAN`！
 - secret名字必须为`FUDAN`！
+- 如果要开启成功填写的通知，在 http://iyuu.cn/ 申请token 然后在密码后面+ `(空格)`+`token`
+- `学号`+`(空格)`+`密码`+ `(空格)`+`token`
+- 如果要开启验证码识别，在 http://www.kuaishibie.cn/ 注册账号
+  然后在token后面 + `(空格)`+`uname` + `(空格)`+`pwd`
+- `学号`+`(空格)`+`密码`+ `(空格)`+`token`+`(空格)`+`uname` + `(空格)`+`pwd`
 
 ### 4. 启用 Actions
 
