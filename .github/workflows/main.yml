@@ -46,5 +46,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           python3 ./dailyFudan.py '${{ secrets.FUDAN }}'
-          python3 ./dailyFudan.py '${{ secrets.FUDAN2 }}'
-          python3 ./dailyFudan.py '${{ secrets.FUDAN3 }}'
+
